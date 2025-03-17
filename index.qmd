@@ -128,7 +128,7 @@ emissions_long_1990_2022 = emissions_long.query("year >= 1990 & year <= 2021")
 emissions_long_1990_2022
 
 # Query for 5 countries (adjust these to any countries you like)
-emissions_long_subset = emissions_long_1990_2022.query("country == 'UAE' | country == 'China' | country == 'Equatorial Guinea' | country == 'Kazakhstan' | country == 'Tunisia'")
+emissions_long_subset = emissions_long_1990_2022.query("country == 'UAE' | country == 'Armenia' | country == 'Equatorial Guinea' | country == 'Kazakhstan' | country == 'Tunisia'")
 
 emissions_long_subset
 
